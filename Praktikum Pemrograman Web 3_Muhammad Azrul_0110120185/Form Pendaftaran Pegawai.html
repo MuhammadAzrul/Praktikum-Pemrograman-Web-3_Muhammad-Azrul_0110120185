@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>FORMULIR PENDAFTARAN PEGAWAI</title>
+</head>
+    <body style="margin-left: 400px;margin-right: 400px;font-family:Montserrat; background-color: #56c9ff">
+	<fieldset style="background-color:#ffa52e">
+    <h1 style="color: black;text-align: center">PENDAFTARAN PEGAWAI</h1>
+    <br>
+    <br>
+	<form action="signup.html" method="post">
+	<div>
+    <h3>DATA DIRI</h3><hr>
+    <br>
+	<td><label for="name">Nama Panjang &emsp;&nbsp;&nbsp;&nbsp;: </label></td>
+    <td><input type="text" nama="nama" placeholder="Masukan Nama" required="" style="width : 70%"></td>
+    <br>
+    <br>
+    <br>
+	<td><label for="name">Nama Panggilan &emsp;&nbsp;&nbsp;&nbsp;: </label></td>
+    <td><input type="text" Nama="nama" placeholder="Masukan Nama" required="" style="width : 70%"></td>
+    <br>
+    <br>
+    <br>
+	<td><label for="birth">Tempat Tanggal Lahir : </label></td>
+    <td><input type="date" Nama="lahir placeholder="Masukan Tanggal Lahir" required="" style="width : 70%"></td>
+    <br>
+    <br>
+    <br>
+	<td><label for="religion">Agama &emsp; &emsp; : </label>
+				<select name="religion" required="" style="width : 70%">
+				<option value="1">ISLAM</option>
+				<option value="1">KRISTEN</option>
+				<option value="1">KATHOLIK</option>
+				<option value="1">BUDDHA</option>
+				<option value="1">HINDU</option>
+				</select><br><br><br>
+	<label for="gender">Jenis Kelamin  &emsp; &emsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+	<input type="radio" name="jenis kelamin" value="L" required="">Laki-laki
+	<input type="radio" name="jenis kelamin" value="P" required="">Perempuan <br><br><br>
+	<label for="status">Status &emsp; &emsp;&emsp;&nbsp;&nbsp;: </label>
+				<select name="status" required="" style="width : 70%">
+				<option value="1">Lajang</option>
+				<option value="1">Menikah</option>
+				</select><br><br><br>
+	<table>
+		<tr>
+			<td><label for="umur">Umur &emsp; &emsp;&nbsp;&nbsp;&nbsp;&nbsp; &emsp;&nbsp; :</label></td>
+			<td><input type="text" Umur="umur" placeholder="Masukan Umur" required="" style="width : 70%"></td>
+        </tr>
+        
+	</table><br>
+
+
+	</div>
+	<br><br>
+
+	<div>
+	<h3>INFORMASI KONTAK</h3><hr><br><br>
+	<label for="email">Email &emsp; &emsp;&emsp; &emsp; &nbsp; : </label>
+	<input type="email" name="email" placeholder="Masukan Email" required="" style="width : 70%"><br><br><br>
+	<label for="Telepon">Nomor Telpon &nbsp;&nbsp;:</label>
+	<input type="text" name="telepon"  placeholder="Masukan Nomer Telepon" required="" style="width : 70%"><br><br>
+	<p>Alamat  &emsp; &emsp;&emsp;&nbsp;&nbsp;: </p> 
+	<textarea name="alamat" rows="4" cols="65" placeholder="Masukan Alamat di sini" required=""></textarea>
+	
+	</div><br><br>
+
+<div>
+<label for="photo">Upload Foto Profil&emsp; : </label><input type="file" name="foto"><br><br>
+<button type="submit">Kirim</button>
+<button type="reset">Batal</button>
+<hr>
+</fieldset>
+<br>
+</div>
+</form>
+</body>
+</html>
